@@ -1,2 +1,2 @@
-Black-list.txt linguist-detectable linguist-language=AdBlock
-White-list.txt linguist-detectable linguist-language=AdBlock
+Black-list.txt linguist-detectable linguist-language=hosts
+White-list.txt linguist-detectable linguist-language=hosts
