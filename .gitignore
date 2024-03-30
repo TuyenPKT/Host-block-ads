@@ -1,0 +1,6 @@
+!/.idea/*
+/.history
+*.egg-info
+.vscode/
+venv/
+*.tmp
