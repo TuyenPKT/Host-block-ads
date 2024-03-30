@@ -6,8 +6,8 @@
 !  |Size: 1 kb
 !  |
 !  |Credits & ©: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
-!  |Licence: MPLv2,
-!  | https://www.mozilla.org/en-US/MPL/2.0/
+!  |Licence: MIT License,
+!  | https://github.com/bigdargon/hostsVN/raw/master/LICENSE
 !  /
 ! ( Please report any issues related to this file.
 !  \......................................
