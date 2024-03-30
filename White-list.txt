@@ -3,3 +3,4 @@
 @@||click.email.microsoftemail.com^
 @@||bntrace.com^
 @@||binance.info^
+@@||binance.com^
