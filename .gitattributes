@@ -3,5 +3,5 @@ hosts-* linguist-detectable linguist-language=hosts
 gambling0* linguist-detectable linguist-language=hosts
 
 /filters/* linguist-detectable linguist-language=AdBlock
-filter.txt linguist-detectable linguist-language=AdBlock
-filter-VN.txt linguist-detectable linguist-language=AdBlock
+Black-list.txt linguist-detectable linguist-language=AdBlock
+White-list.txt linguist-detectable linguist-language=AdBlock
