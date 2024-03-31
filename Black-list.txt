@@ -40,18 +40,15 @@
 /ads/*.xml$xmlhttprequest
 /ads/popup_
 /adv/*$image
-/banner-ads.
-/banner/*.gif
+/banner/*$image
 /beardeddragon$script
-/blueserving.
 /core/*$script
-/quang%20cao/*
-/quang_cao/*
-/quangcao.
-/quangcao/*
-/root/ads/*
-/qcao/*
-/ad_banner/*
+/quang%20cao/*$image
+/quang_cao/*$image
+/quangcao/*$image
+/root/ads/*$image
+/qcao/*$image
+/ad_banner/*$image
 
 
 
