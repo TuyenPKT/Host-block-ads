@@ -33,29 +33,29 @@
 ||t7cp4fldl.com^
 ||qph.cf2.quoracdn.net^
 ||i.imgur.com/*.gif$image
+||i.imgur.com/*.jpeg$image
 ||ads.starzd.com/*.gif$image
 
 
 
-/ads/*$image
-/gp/*$image
-/img/i999*jpg$image
-/banner/*/*gif
-/banner/*/*jpg
-/ads/*.xml$xmlhttprequest
-/ads/popup_
-/adv/*$image
-/beardeddragon$script
-/core/*$script
-/quang%20cao/*$image
-/quang_cao/*$image
-/quangcao/*$image
-/root/ads/*$image
-/qcao/*$image
-/ad_banner/*$image
-/popup*$image
-/close*$image
-/data/*$image
+/ads/*.gif
+/gp/*.gif
+/img/i999*.jpg
+/banner/*/*.gif
+/popup*.gif
+/close*.png
+
+
+
+/blogger.googleusercontent.com/img/b/*$image$image
+/lh3.googleusercontent.com/pw/*$image
+
+###popup-giua-man-hinh
+
+! 2024-03-30 https://phimbet.org
+phimbet.org##.main-top-ads
+
+
 
 ###popup-giua-man-hinh
 
