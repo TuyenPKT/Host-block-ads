@@ -44,5 +44,7 @@
 ! https://mifirm.net
 ###block-mess
 mifirm.net##.bnud.holder
+! https://phimchill.me
+phimchill.me##.closecf
 
 
