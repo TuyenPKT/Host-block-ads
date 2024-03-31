@@ -37,13 +37,14 @@
 ||ads.starzd.com/*.gif$image
 
 
-
-/ads/*.gif
+/img/i999*$image
+/banner/thantai*$image
+/ads/*
 /gp/*.gif
 /img/i999*.jpg
 /banner/*/*.gif
 /popup*.gif
-/close*.png
+/close*
 
 
 
@@ -54,6 +55,8 @@
 
 ! 2024-03-30 https://phimbet.org
 phimbet.org##.main-top-ads
+
+
 
 
 
