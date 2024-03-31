@@ -40,6 +40,7 @@
 /gp/*.jpg$image
 /thantai/*.gif$image
 /thantai/*.jpg$image
+/ads/*.xml$xmlhttprequest
 
 
 
