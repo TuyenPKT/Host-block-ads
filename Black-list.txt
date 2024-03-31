@@ -35,6 +35,7 @@
 ||i.imgur.com/*.gif$image
 ||i.imgur.com/*.jpeg$image
 ||ads.starzd.com/*.gif$image
+||shopee.clgt.xyz*$image
 
 
 /img/i999*$image
