@@ -6,6 +6,6 @@
 # Homepage: https://bigdargon.github.io/TuyenPKT/
 # GitHub: https://github.com/Uatu1218/Host-block-ads/
 # Report issues: 
-# Download: https://github.com/Uatu1218/Host-block-ads/raw/main/Black-list.txt
+# Download: https://raw.githubusercontent.com/Uatu1218/Host-block-ads/main/Black-list.txt
 #
 # =====================================================
