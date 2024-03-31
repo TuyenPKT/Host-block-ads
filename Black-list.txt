@@ -32,7 +32,6 @@
 ||xoso8811.com^
 ||t7cp4fldl.com^
 ||qph.cf2.quoracdn.net^
-
 ||i.imgur.com/*.gif$image
 ||ads.starzd.com/*.gif$image
 
