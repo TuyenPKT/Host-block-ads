@@ -63,15 +63,15 @@
 /url-sw2/*$popup
 |about:$popup
 /vIKW6ps*$image
-||tai.*/
-||tai.*/$popup
-||bit.ly/*$popup
+/tai.*/
+/tai.*/$popup
+/bit.ly/*$popup
 
 
 
 /thantai*$image
 /url-sw2/*$popup
-|about:$popup
+||about:$popup
 /ad_banner/*/*$image
 
 
