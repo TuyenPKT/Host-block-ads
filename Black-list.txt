@@ -18,33 +18,32 @@
 !  \____________________
 
 
-||shp.ee^
-||best-free-apps.com^
-||man.vip^
-||hsunwin6.bz^
+/shp.ee^
+/best-free-apps.*/
+/man.*/
+/hsunwin6.*/
 ||shope.ee^
-||6686vn80.com^
-||i9007.com^
-||178.128.105.91^
-||sunwin7.bz^
-||i9005.com^
-||5pink.com^
-||decaga.click^
-||tdtchh.com^
-||pheclip.com^
-||sunwin7.bz^
-||saigonbet.net^
-||sunwinbet.space^
-||xoso8811.com^
-||t7cp4fldl.com^
-||quoracdn.net^
+/6686vn80.*/
+/i9007.*/
+/178.128.105.91^
+/i9005.*/
+/5pink.*/
+/decaga.*/
+/tdtchh.*/
+/pheclip.*/
+/sunwin7.*/
+/saigonbet.*/
+/sunwinbet.*/
+/xoso8811.*/
+/t7cp4fldl.*/
+/quoracdn.*/
 ||i.imgur.com/*.gif$image
 ||i.imgur.com/*.jpeg$image
 /ad.*/
 /ads.*/
 ||shopee.clgt.xyz^
-||xoso8811.com^
-||five88.win^
+/xoso8811.*/
+/five88.*/
 
 
 
