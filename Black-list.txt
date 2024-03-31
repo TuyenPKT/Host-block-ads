@@ -39,7 +39,7 @@
 
 /img/i999*$image
 /banner/thantai*$image
-/ads/*
+/ads/*$image
 /gp/*.gif
 /img/i999*.jpg
 /banner/*/*.gif
