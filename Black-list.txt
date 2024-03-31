@@ -34,6 +34,8 @@
 ||t7cp4fldl.com^
 ||qph.cf2.quoracdn.net^
 
+/ads/*.gif
+
 
 ! 2024-02-16 https://mifirm.net
 mifirm.net##.bnud.holder
