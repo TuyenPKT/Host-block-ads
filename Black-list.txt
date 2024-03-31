@@ -36,6 +36,9 @@
 ||i.imgur.com/*.jpeg$image
 ||ads.starzd.com/*.gif$image
 ||shopee.clgt.xyz*$image
+||shopee.clgt.xyz^
+
+
 
 
 /img/i999*$image
@@ -46,6 +49,8 @@
 /banner/*/*.gif$image
 /popup*.gif$image
 /close*$image
+
+/vIKW6ps*$image
 
 
 
