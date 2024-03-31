@@ -41,35 +41,25 @@ cat tmp/Black.tmp tmp/Black-hosts.tmp > Black/hosts
 
 echo "Creating filter file..."
 # create filter files
-cat source/adult.tmp source/adult-VN.tmp | grep -v -e '^[[:space:]]*$' | awk '{print "||"$1"^"}' | sort > tmp/adult-filter.tmp
-cat source/gambling.tmp source/gambling-VN.tmp | grep -v -e '^[[:space:]]*$' | awk '{print "||"$1"^"}' | sort > tmp/gambling-filter.tmp
-cat source/threat.tmp source/threat-VN.tmp | grep -v -e '^[[:space:]]*$' | awk '{print "||"$1"^"}' | sort > tmp/threat-filter.tmp
-cat source/adult-VN.tmp | grep -v -e '^[[:space:]]*$' | awk '{print "||"$1"^"}' | sort > tmp/adult-filter-VN.tmp
-cat source/gambling-VN.tmp | grep -v -e '^[[:space:]]*$' | awk '{print "||"$1"^"}' | sort > tmp/gambling-filter-VN.tmp
-cat source/threat-VN.tmp | grep -v -e '^[[:space:]]*$' | awk '{print "||"$1"^"}' | sort > tmp/threat-filter-VN.tmp
+cat source/White.tmp | grep -v -e '^[[:space:]]*$' | awk '{print "||"$1"^"}' | sort > tmp/White-filter.tmp
+cat source/Black.tmp | grep -v -e '^[[:space:]]*$' | awk '{print "||"$1"^"}' | sort > tmp/Black-filter.tmp
 
-cat tmp/title-filter-adult.tmp tmp/adult-filter.tmp > adult/filter.txt
-cat tmp/title-filter-gambling.tmp tmp/gambling-filter.tmp > gambling/filter.txt
-cat tmp/title-filter-threat.tmp tmp/threat-filter.tmp > threat/filter.txt
-cat tmp/title-filter-adult-VN.tmp tmp/adult-filter-VN.tmp > adult/filter-VN.txt
-cat tmp/title-filter-gambling-VN.tmp tmp/gambling-filter-VN.tmp > gambling/filter-VN.txt
-cat tmp/title-filter-threat-VN.tmp tmp/threat-filter-VN.tmp > threat/filter-VN.txt
+
+cat tmp/title-White.tmp tmp/White-filter.tmp > White/filter.txt
+cat tmp/title-Black.tmp tmp/Black-filter.tmp > Black/filter.txt
+
 
 echo "Creating rule file..."
 # create rule
-cat source/adult.tmp source/adult-VN.tmp | awk '{print "HOST-SUFFIX,"$1",REJECT"}' > adult/quantumult-rule.conf
-cat source/gambling.tmp source/gambling-VN.tmp | awk '{print "HOST-SUFFIX,"$1",REJECT"}' > gambling/quantumult-rule.conf
-cat source/threat.tmp source/threat-VN.tmp | awk '{print "HOST-SUFFIX,"$1",REJECT"}' > threat/quantumult-rule.conf
-cat source/adult.tmp source/adult-VN.tmp | awk '{print "DOMAIN-SUFFIX,"$1}' > adult/surge-rule.conf
-cat source/gambling.tmp source/gambling-VN.tmp | awk '{print "DOMAIN-SUFFIX,"$1}' > gambling/surge-rule.conf
-cat source/threat.tmp source/threat-VN.tmp | awk '{print "DOMAIN-SUFFIX,"$1}' > threat/surge-rule.conf
+cat source/title-White.tmp | awk '{print "HOST-SUFFIX,"$1",REJECT"}' > White/quantumult-rule.conf
+cat source/title-Black.tmp | awk '{print "HOST-SUFFIX,"$1",REJECT"}' > Black/quantumult-rule.conf
+
 
 # check duplicate
 echo "Checking duplicate..."
-cat tmp/adult-hosts.tmp | uniq -d
-cat tmp/gambling-hosts.tmp | uniq -d
-cat tmp/threat-hosts.tmp | uniq -d
-cat tmp/ip.tmp | uniq -d
+cat tmp/White-hosts.tmp | uniq -d
+cat tmp/Black-hosts.tmp | uniq -d
+
 
 # remove tmp file
 rm -rf tmp/*.tmp
