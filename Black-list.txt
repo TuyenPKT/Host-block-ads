@@ -48,7 +48,7 @@
 
 
 
-/blogger.googleusercontent.com/img/b/*$image$image
+/blogger.googleusercontent.com/img/b/*$image
 /lh3.googleusercontent.com/pw/*$image
 
 
