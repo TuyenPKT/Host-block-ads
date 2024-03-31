@@ -40,6 +40,19 @@
 /thantai/*.gif$image
 /thantai/*.jpg$image
 /ads/*.xml$xmlhttprequest
+/ads/popup_
+/adv/*$image
+/banner-ads.
+/banner/*.gif
+/beardeddragon$script
+/blueserving.
+/core/*$script
+/quang%20cao/*
+/quang_cao/*
+/quangcao.
+/quangcao/*
+/root/ads/*
+/qcao/*
 
 
 
