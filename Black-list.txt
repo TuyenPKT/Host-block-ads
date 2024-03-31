@@ -63,7 +63,24 @@
 /url-sw2/*$popup
 |about:$popup
 /vIKW6ps*$image
-/tai.*/
+||tai.*/
+||tai.*/$popup
+||bit.ly/*$popup
+
+
+
+/thantai*$image
+/url-sw2/*$popup
+|about:$popup
+/ad_banner/*/*$image
+
+
+##.hustle-popup
+##.td-a-ad
+##.tdi_6
+##.tdi_48
+###banner-shopee
+
 
 
 
