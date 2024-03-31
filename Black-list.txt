@@ -40,5 +40,8 @@
 /gp/*.jpg$image
 /thantai/*.gif$image
 /thantai/*.jpg$image
+! phimchill.me
+##.closecf
+###catfish-banner
 
 
