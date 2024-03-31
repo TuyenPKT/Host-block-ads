@@ -51,7 +51,7 @@
 
 
 
-/img/i999*$image
+/i999*$image
 /banner/thantai*$image
 /ads/*$image
 /gp/*.gif$image
