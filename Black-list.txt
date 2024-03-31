@@ -40,11 +40,11 @@
 /img/i999*$image
 /banner/thantai*$image
 /ads/*$image
-/gp/*.gif
-/img/i999*.jpg
-/banner/*/*.gif
-/popup*.gif
-/close*
+/gp/*.gif$image
+/img/i999*.jpg$image
+/banner/*/*.gif$image
+/popup*.gif$image
+/close*$image
 
 
 
