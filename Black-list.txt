@@ -40,7 +40,8 @@
 ||quoracdn.net^
 ||i.imgur.com/*.gif$image
 ||i.imgur.com/*.jpeg$image
-||ads.*/
+/ad.*/
+/ads.*/
 ||shopee.clgt.xyz^
 ||xoso8811.com^
 ||five88.win^
@@ -50,6 +51,7 @@
 
 
 /animehay.*/ad_banner/
+/i9015.*/
 /i999*$image
 /banner/thantai*$image
 /ads/*$image
