@@ -51,6 +51,7 @@
 /quangcao/*
 /root/ads/*
 /qcao/*
+/ad_banner/*
 
 
 
