@@ -1,4 +1,6 @@
 ! Title: TuyenPKT Black List (Beta)
+! Last modified: 31 Mar 2024 15:10 UTC+7
+! Version: 0.0.1
 ! ..............
 !  |URL: https://github.com/Uatu1218/Host-block-ads
 !  |Count: 51 rules!
