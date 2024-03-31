@@ -68,6 +68,8 @@
 /bit.ly/*$popup
 /dabet.*/
 /dabet.*/$popup
+/vvvwin588.*/
+/f8bet.*/
 
 
 
