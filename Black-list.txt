@@ -55,6 +55,8 @@
 phimbet.org##.main-top-ads
 mifirm.net###block-mess
 mifirm.net##.bnud.holder
+phimchill.me##.closecf
+phimchill.me###catfish-banner
 
 
 
