@@ -70,6 +70,9 @@
 /dabet.*/$popup
 /vvvwin588.*/
 /f8bet.*/
+/VVVwin.*/
+/vvvwin88.*/
+/f8game.*/
 
 
 
