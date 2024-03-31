@@ -73,7 +73,7 @@
 /VVVwin.*/
 /vvvwin88.*/
 /f8game.*/
-/clmm.webcam/
+/clmm.*/
 
 
 
