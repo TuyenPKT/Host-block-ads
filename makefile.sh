@@ -31,21 +31,13 @@ sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_rule_ga
 
 echo "Creating hosts file..."
 # create hosts files
-cat source/adult.txt source/adult-VN.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/adult-hosts.tmp
-cat source/gambling.txt source/gambling-VN.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/gambling-hosts.tmp
-cat source/threat.txt source/threat-VN.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/threat-hosts.tmp
-cat source/adult-VN.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/adult-hosts-VN.tmp
-cat source/gambling-VN.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/gambling-hosts-VN.tmp
-cat source/threat-VN.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/threat-hosts-VN.tmp
-cat source/ip.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | sort -n > tmp/ip.tmp
+cat source/White.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/White-hosts.tmp
+cat source/Black.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/Black-hosts.tmp
 
-cat tmp/title-hosts-adult.tmp tmp/adult-hosts.tmp > adult/hosts
-cat tmp/title-hosts-gambling.tmp tmp/gambling-hosts.tmp > gambling/hosts
-cat tmp/title-hosts-threat.tmp tmp/threat-hosts.tmp > threat/hosts
-cat tmp/title-hosts-adult-VN.tmp tmp/adult-hosts-VN.tmp > adult/hosts-VN
-cat tmp/title-hosts-gambling-VN.tmp tmp/gambling-hosts-VN.tmp > gambling/hosts-VN
-cat tmp/title-hosts-threat-VN.tmp tmp/threat-hosts-VN.tmp > threat/hosts-VN
-cat tmp/title-ip.tmp tmp/ip.tmp > ip/list
+
+cat tmp/White.tmp tmp/White-hosts.tmp > White/hosts
+cat tmp/Black.tmp tmp/Black-hosts.tmp > Black/hosts
+
 
 echo "Creating filter file..."
 # create filter files
