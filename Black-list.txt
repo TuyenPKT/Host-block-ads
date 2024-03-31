@@ -33,12 +33,16 @@
 ||sunwinbet.space^
 ||xoso8811.com^
 ||t7cp4fldl.com^
-||qph.cf2.quoracdn.net^
+||quoracdn.net^
 ||i.imgur.com/*.gif$image
 ||i.imgur.com/*.jpeg$image
 ||ads.starzd.com/*.gif$image
 ||shopee.clgt.xyz*$image
 ||shopee.clgt.xyz^
+||xoso8811.com^
+||five88.win^
+
+
 
 
 
