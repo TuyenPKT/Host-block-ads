@@ -51,11 +51,10 @@
 /blogger.googleusercontent.com/img/b/*$image$image
 /lh3.googleusercontent.com/pw/*$image
 
-###popup-giua-man-hinh
 
-! 2024-03-30 https://phimbet.org
 phimbet.org##.main-top-ads
-
+mifirm.net###block-mess
+mifirm.net##.bnud.holder
 
 
 
