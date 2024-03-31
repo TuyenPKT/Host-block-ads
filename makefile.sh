@@ -2,58 +2,32 @@
 
 echo "Preparing files..."
 # convert hosts to filters
-cat source/adult.txt | grep -v '#' | awk '{print $1}' > source/adult.tmp
-sed -i "s/www\.//g" source/adult.tmp
-sort -u -o source/adult.tmp source/adult.tmp
-cat source/adult-VN.txt | grep -v '#' | awk '{print $1}' > source/adult-VN.tmp
-sed -i "s/www\.//g" source/adult-VN.tmp
-sort -u -o source/adult-VN.tmp source/adult-VN.tmp
-cat source/gambling.txt | grep -v '#' | awk '{print $1}' > source/gambling.tmp
-sed -i "s/www\.//g" source/gambling.tmp
-sort -u -o source/gambling.tmp source/gambling.tmp
-cat source/gambling-VN.txt | grep -v '#' | awk '{print $1}' > source/gambling-VN.tmp
-sed -i "s/www\.//g" source/gambling-VN.tmp
-sort -u -o source/gambling-VN.tmp source/gambling-VN.tmp
-cat source/threat.txt | grep -v '#' | awk '{print $1}' > source/threat.tmp
-sed -i "s/www\.//g" source/threat.tmp
-sort -u -o source/threat.tmp source/threat.tmp
-cat source/threat-VN.txt | grep -v '#' | awk '{print $1}' > source/threat-VN.tmp
-sed -i "s/www\.//g" source/threat-VN.tmp
-sort -u -o source/threat-VN.tmp source/threat-VN.tmp
+cat source/White.txt | grep -v '#' | awk '{print $1}' > source/White.tmp
+sed -i "s/www\.//g" source/White.tmp
+sort -u -o source/White.tmp source/White.tmp
+cat source/Black.txt | grep -v '#' | awk '{print $1}' > source/Black.tmp
+sed -i "s/www\.//g" source/Black.tmp
+sort -u -o source/Black.tmp source/Black.tmp
+
 
 echo "Making titles..."
 # make time stamp & count blocked
 TIME_STAMP=$(date +'%d %b %Y %H:%M')
 VERSION=$(date +'%y%m%d%H%M')
 LC_NUMERIC="en_US.UTF-8"
-DOMAIN_ADULT=$(printf "%'.3d\n" $(cat source/adult.txt source/adult-VN.txt | grep -v '#' | wc -l))
-DOMAIN_GAMBLING=$(printf "%'.3d\n" $(cat source/gambling.txt source/gambling-VN.txt | grep -v '#' | wc -l))
-DOMAIN_THREAT=$(printf "%'.3d\n" $(cat source/threat.txt source/threat-VN.txt | grep -v '#' | wc -l))
-DOMAIN_ADULT_VN=$(printf "%'.3d\n" $(cat source/adult-VN.txt | grep -v '#' | wc -l))
-DOMAIN_GAMBLING_VN=$(printf "%'.3d\n" $(cat source/gambling-VN.txt | grep -v '#' | wc -l))
-DOMAIN_THREAT_VN=$(printf "%'.3d\n" $(cat source/threat-VN.txt | grep -v '#' | wc -l))
-IP_BLOCKLIST=$(printf "%'.3d\n" $(cat source/ip.txt | grep -v '#' | wc -l))
-RULE_ADULT=$(printf "%'.3d\n" $(cat source/adult.tmp source/adult-VN.tmp | wc -l))
-RULE_GAMBLING=$(printf "%'.3d\n" $(cat source/gambling.tmp source/gambling-VN.tmp | wc -l))
-RULE_THREAT=$(printf "%'.3d\n" $(cat source/threat.tmp source/threat-VN.tmp | wc -l))
-RULE_ADULT_VN=$(printf "%'.3d\n" $(cat source/adult-VN.tmp | wc -l))
-RULE_GAMBLING_VN=$(printf "%'.3d\n" $(cat source/gambling-VN.tmp | wc -l))
-RULE_THREAT_VN=$(printf "%'.3d\n" $(cat source/threat-VN.tmp | wc -l))
+DOMAIN_ADULT=$(printf "%'.3d\n" $(cat source/White.txt | grep -v '#' | wc -l))
+DOMAIN_GAMBLING=$(printf "%'.3d\n" $(cat source/Black.txt | grep -v '#' | wc -l))
+
+RULE_ADULT=$(printf "%'.3d\n" $(cat source/White.tmp | wc -l))
+RULE_GAMBLING=$(printf "%'.3d\n" $(cat source/Black.tmp | wc -l))
+
 
 # update titles
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_domain_adult_/$DOMAIN_ADULT/g" tmp/title-hosts-adult.txt > tmp/title-hosts-adult.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_domain_gambling_/$DOMAIN_GAMBLING/g" tmp/title-hosts-gambling.txt > tmp/title-hosts-gambling.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_domain_threat_/$DOMAIN_THREAT/g" tmp/title-hosts-threat.txt > tmp/title-hosts-threat.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_domain_adult_vn_/$DOMAIN_ADULT_VN/g" tmp/title-hosts-adult-VN.txt > tmp/title-hosts-adult-VN.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_domain_gambling_vn_/$DOMAIN_GAMBLING_VN/g" tmp/title-hosts-gambling-VN.txt > tmp/title-hosts-gambling-VN.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_domain_threat_vn_/$DOMAIN_THREAT_VN/g" tmp/title-hosts-threat-VN.txt > tmp/title-hosts-threat-VN.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_ip_blocklist_/$IP_BLOCKLIST/g" tmp/title-ip.txt > tmp/title-ip.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_rule_adult_/$RULE_ADULT/g" tmp/title-filter-adult.txt > tmp/title-filter-adult.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_rule_gambling_/$RULE_GAMBLING/g" tmp/title-filter-gambling.txt > tmp/title-filter-gambling.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_rule_threat_/$RULE_THREAT/g" tmp/title-filter-threat.txt > tmp/title-filter-threat.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_rule_adult_vn_/$RULE_ADULT_VN/g" tmp/title-filter-adult-VN.txt > tmp/title-filter-adult-VN.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_rule_gambling_vn_/$RULE_GAMBLING_VN/g" tmp/title-filter-gambling-VN.txt > tmp/title-filter-gambling-VN.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_rule_threat_vn_/$RULE_THREAT_VN/g" tmp/title-filter-threat-VN.txt > tmp/title-filter-threat-VN.tmp
+sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_domain_adult_/$DOMAIN_ADULT/g" tmp/White.txt > tmp/White.tmp
+sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_domain_gambling_/$DOMAIN_GAMBLING/g" tmp/Black.txt > tmp/Black.tmp
+
+sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_rule_adult_/$RULE_ADULT/g" tmp/title-White.txt > tmp/title-White.tmp
+sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_rule_gambling_/$RULE_GAMBLING/g" tmp/title-Black.txt > tmp/title-Black.tmp
 
 echo "Creating hosts file..."
 # create hosts files
