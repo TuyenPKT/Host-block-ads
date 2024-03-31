@@ -66,6 +66,8 @@
 /tai.*/
 /tai.*/$popup
 /bit.ly/*$popup
+/dabet.*/
+/dabet.*/$popup
 
 
 
