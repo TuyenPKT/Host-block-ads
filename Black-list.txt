@@ -40,7 +40,7 @@
 ||quoracdn.net^
 ||i.imgur.com/*.gif$image
 ||i.imgur.com/*.jpeg$image
-||ads.*/*.gif$image
+||ads.*/
 ||shopee.clgt.xyz^
 ||xoso8811.com^
 ||five88.win^
