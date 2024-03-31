@@ -56,7 +56,7 @@
 /ad_banner/*$image
 /popup*$image
 /close*$image
+/data/*$image
 
 ###popup-giua-man-hinh
-/data/*$image
 
