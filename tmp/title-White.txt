@@ -1,4 +1,4 @@
-! Title: TuyenPKT Black List (Beta)
+! Title: TuyenPKT White List (Beta)
 ! Description: Only include adult domains
 ! Last modified: _time_stamp_ UTC+7
 ! Version: _version_
