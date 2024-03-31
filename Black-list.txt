@@ -49,7 +49,7 @@
 
 
 
-
+/animehay.*/ad_banner/
 /i999*$image
 /banner/thantai*$image
 /ads/*$image
