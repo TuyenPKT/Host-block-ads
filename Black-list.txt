@@ -34,11 +34,11 @@
 ||t7cp4fldl.com^
 ||qph.cf2.quoracdn.net^
 
-/ads/*.gif
+/ads/*.gif$image
+/ads/*.jpg$image
+/gp/*.gif$image
+/gp/*.jpg$image
+/thantai/*.gif$image
+/thantai/*.jpg$image
 
 
-! 2024-02-16 https://mifirm.net
-mifirm.net##.bnud.holder
-
-! 2024-03-30 https://sex.lenlut.tv
-sex.lenlut.tv##.banner-catfish-bottomd
