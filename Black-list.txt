@@ -63,9 +63,7 @@
 /url-sw2/*$popup
 |about:$popup
 /vIKW6ps*$image
-/b29.*/
-/rio66.*/
-/b29.*/
+/tai.*/
 
 
 
