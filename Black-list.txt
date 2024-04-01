@@ -37,7 +37,7 @@
 /xoso8811.*/
 /t7cp4fldl.*/
 /quoracdn.*/
-/ads.*/
+/ads.*/*$image
 ||shopee.clgt.xyz^
 /xoso8811.*/
 /five88.*/
@@ -48,7 +48,7 @@
 /VVVwin.*/
 /vvvwin88.*/
 /f8game.*/
-/clmm.*/
+/clmm.*/*$image
 /kuwin09.*/
 
 
