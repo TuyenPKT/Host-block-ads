@@ -29,6 +29,7 @@
 /i9005.*/
 /5pink.*/
 /5pink.*/*/
+/5pink.*$image
 /decaga.*/
 /tdtchh.*/
 /pheclip.*/
