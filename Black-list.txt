@@ -79,6 +79,7 @@
 ##.tdi_6
 ##.tdi_48
 ###banner-shopee
+##.xx-ads
 
 
 
