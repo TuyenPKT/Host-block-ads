@@ -69,7 +69,7 @@
 ||i.imgur.com/*.gif$image
 ||i.imgur.com/*.jpeg$image
 /thantai*$image
-/url-sw2/*$popup
+/*/*$popup
 ||about:$popup
 /ad_banner/*/*$image
 
