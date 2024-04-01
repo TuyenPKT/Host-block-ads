@@ -28,6 +28,7 @@
 ||178.128.105.91^
 /i9005.*/
 /5pink.*/
+/5pink.*/*/
 /decaga.*/
 /tdtchh.*/
 /pheclip.*/
