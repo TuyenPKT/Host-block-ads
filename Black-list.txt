@@ -75,8 +75,24 @@
 /*/*$popup
 ||about:$popup
 /ad_banner/*/*$image
+/m88/*$image
+/f8b/*$image
+/i9/*$image
+/f88/*$image
+/h88/*$image
+/ab77/*$image
+/k9/*$image
+/td/*$image
 
 
+
+
+
+
+###topRightBanner
+##.adsCloseButton
+##.adsCatfishLink
+###popup1
 ##.hustle-popup
 ##.td-a-ad
 ##.tdi_6
