@@ -53,7 +53,7 @@
 ||clmm..*/*$image
 ||kuwin09.*/
 ###popup1
-||f8bet*/
+||f8bet.*/
 ||*/k9win*.$image,xhr
 ||*/6688*.$image,xhr
 /m88/*$xhr,image
