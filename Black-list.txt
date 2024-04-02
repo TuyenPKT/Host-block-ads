@@ -39,7 +39,7 @@
 /xoso8811.*/
 /t7cp4fldl.*/
 /quoracdn.*/
-/ads.*/*$image
+/ads..*/*$image
 ||shopee.clgt.xyz^
 /xoso8811.*/
 /five88.*/
@@ -50,7 +50,7 @@
 /VVVwin.*/
 /vvvwin88.*/
 /f8game.*/
-/clmm.*/*$image
+/clmm..*/*$image
 /kuwin09.*/
 
 
@@ -66,7 +66,7 @@
 |about:$popup
 /vIKW6ps*$image
 /dabet.*/$popup
-/tai.*/$popup
+/tai..*/$popup
 /bit.ly/*$popup
 ||i.imgur.com/*.gif$image
 ||i.imgur.com/*.jpeg$image
