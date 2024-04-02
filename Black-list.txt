@@ -52,6 +52,7 @@
 /f8game.*/
 /clmm..*/*$image
 /kuwin09.*/
+/m88/*$image
 
 
 /mupdam.*/$image
