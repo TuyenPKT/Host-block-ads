@@ -82,7 +82,7 @@
 ##.tdi_48
 ###banner-shopee
 ##.xx-ads
-
+##.close_ads
 
 
 
