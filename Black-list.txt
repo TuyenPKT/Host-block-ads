@@ -20,42 +20,42 @@
 
 ||shp.ee^
 ||man.vip^
-/best-free-apps.*/
-/hsunwin6.*/
+||best-free-apps.*/
+||hsunwin6.*/
 ||shope.ee^
-/6686vn80.*/
-/i9007.*/
+||6686vn80.*/
+||i9007.*/
 ||178.128.105.91^
-/i9005.*/
-/5pink.*/
-/5pink.*/*/
-/5pink.*/*$image
-/decaga.*/
-/tdtchh.*/
-/pheclip.*/
-/sunwin7.*/
-/saigonbet.*/
-/sunwinbet.*/
-/xoso8811.*/
-/t7cp4fldl.*/
-/quoracdn.*/
-/ads..*/*$image
+||i9005.*/
+||5pink.*/
+||5pink.*/*/
+||5pink.*/*$image
+||decaga.*/
+||tdtchh.*/
+||pheclip.*/
+||sunwin7.*/
+||saigonbet.*/
+||sunwinbet.*/
+||xoso8811.*/
+||t7cp4fldl.*/
+||quoracdn.*/
+||ads..*/*$image
 ||shopee.clgt.xyz^
-/xoso8811.*/
-/five88.*/
-/i9015.*/
-/dabet.*/
-/vvvwin588.*/
-/f8bet.*/
-/VVVwin.*/
-/vvvwin88.*/
-/f8game.*/
-/clmm..*/*$image
-/kuwin09.*/
+||xoso8811.*/
+||five88.*/
+||i9015.*/
+||dabet.*/
+||vvvwin588.*/
+||f8bet.*/
+||VVVwin.*/
+||vvvwin88.*/
+||f8game.*/
+||clmm..*/*$image
+||kuwin09.*/
 /m88/*$image
 
 
-/mupdam.*/$image
+||mupdam.*/$image
 /i999*$image
 /ads/*$image
 /gp/*.gif$image
@@ -66,13 +66,13 @@
 /url-sw2/*$popup
 |about:$popup
 /vIKW6ps*$image
-/dabet.*/$popup
-/tai..*/$popup
-/bit.ly/*$popup
+||dabet.*/$popup
+||tai..*/$popup
+||bit.ly/*$popup
 ||i.imgur.com/*.gif$image
 ||i.imgur.com/*.jpeg$image
 /thantai*$image
-/*/*$popup
+||*/*$popup
 ||about:$popup
 /ad_banner/*/*$image
 /m88/*$image
@@ -104,8 +104,8 @@
 
 
 
-/blogger.googleusercontent.com/img/b/*$image
-/lh3.googleusercontent.com/pw/*$image
+||blogger.googleusercontent.com/img/b/*$image
+||lh3.googleusercontent.com/pw/*$image
 
 
 phimbet.org##.main-top-ads
