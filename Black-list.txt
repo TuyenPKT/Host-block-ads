@@ -85,12 +85,7 @@
 
 /shope.ee/*$popup
 /f8bet*/*$popup
-/|about:$popup
-
-
 /www.*/*$popup
-
-! 2024-04-02 https://phimchill.me
 |about:$popup
 
 
