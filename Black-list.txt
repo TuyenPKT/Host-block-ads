@@ -96,7 +96,7 @@
 ||bit.ly/*$popup
 ||i.imgur.com/*.gif$image
 ||i.imgur.com/*.jpeg$image
-/thantai*$image
+
 ||about:$popup
 /ad_banner/*/*$image
 /m88/*$image
