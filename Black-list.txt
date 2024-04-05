@@ -50,7 +50,6 @@
 ||f8game.*/
 ||clmm..*/*$image
 ||kuwin09.*/
-###popup1
 ||f8bet.*/
 ||*/k9win*.$image,xhr
 ||*/6688*.$image,xhr
@@ -122,3 +121,4 @@
 ###popup-giua-man-hinh
 ##.popUpBannerBox
 ##div.Container.Main:nth-of-type(1)
+###popup1
