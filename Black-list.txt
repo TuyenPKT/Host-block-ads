@@ -77,7 +77,7 @@
 /f8bet*/*$popup
 /m88/*$image
 /i999*$image
-/ads/*$image
+/ads/*.gif$image
 /gp/*.gif$image
 /banner/*/*.gif$image
 /popup*.gif$image
