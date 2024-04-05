@@ -37,7 +37,7 @@
 ||sunwinbet.*/
 ||xoso8811.*/
 ||t7cp4fldl.*/
-||quoracdn.*/*.gif$image
+||quoracdn.*/*.gif$image,script,1p
 ||ads..*/*$image
 ||shopee.clgt.xyz^
 ||xoso8811.*/
