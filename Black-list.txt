@@ -64,6 +64,7 @@
 ||postimg.*/*$image,xhr
 ||*.postimg.*/*$image,xhr
 ||*.pixhost.*/*$image,xhr
+||qph.cf2.quoracdn.net/main-qimg*$image,xhr
 
 /m88/*$xhr,image
 /f8b/*$xhr,image
@@ -94,6 +95,8 @@
 /ab77/*$image
 /k9/*$image
 /td/*$image
+/vip79*.*/*$image,xhr
+/ta88*.*/*$image,xhr
 
 ##.main-top-ads
 ###block-mess
