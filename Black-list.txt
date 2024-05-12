@@ -22,6 +22,10 @@ medium.com##.rp.ro.rn.m
 
 ! 2024-05-12 https://phimchill.me
 phimchill.me##[href^="https://vn.633880.com/"]
+phimchill.me###sp-wrapper-hovering > div > [href="https://shope.ee/8f5h0drGRq"]
+phimchill.me###shopee-affiliate
+phimchill.me##.closecf
+
 
 
 
