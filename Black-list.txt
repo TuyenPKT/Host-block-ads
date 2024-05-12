@@ -17,6 +17,38 @@
 !  | Telegram: t.me/TuyenPKT
 !  \____________________
 
+! 2024-04-19 https://medium.com
+medium.com##.rp.ro.rn.m
+
+! 2024-05-12 https://phimchill.me
+phimchill.me##[href^="https://vn.633880.com/"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ||shp.ee^
 ||man.vip^
 ||best-free-apps.*/
@@ -97,3 +129,5 @@
 /td/*$image
 /vip79*.*/*$image,xhr
 /ta88*.*/*$image,xhr
+
+
