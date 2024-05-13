@@ -19,7 +19,7 @@ Last modified: 31 Mar 2024 15:10 UTC+7
 
 @@||over.network^
 @@||msftconnecttest.com^
-@@||click.email.microsoftemail.com^
+@@||microsoftemail.com^
 @@||bntrace.com^
 @@||binance.info^
 @@||binance.com^
@@ -30,3 +30,12 @@ Last modified: 31 Mar 2024 15:10 UTC+7
 @@||tuyen.top^
 @@||vuighe.net^
 @@||medium.com^
+@@||pixels.xyz^
+@@||d3.app^
+@@||b6gl6.ddns.net^
+@@||minepi.com^
+@@||malwarebytes.com^
+@@||stytch.com^
+@@||lrepacks.net^
+@@||titannet.io^
+
