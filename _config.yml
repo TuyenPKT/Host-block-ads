@@ -1,6 +1,6 @@
 name: create-map
 on: push
 
-run: .makefile.sh
+run: makefile.sh
 runs-on: ubuntu-latest
 shell: bash
