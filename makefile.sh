@@ -16,7 +16,6 @@ cat tmp/title-Black.tmp source/Black-list.txt source/White-list.txt > hosts
 
 # remove tmp file
 rm -rf tmp/*.tmp
-rm -rf source/*.tmp
 
 # check duplicate
 echo "Checking duplicate..."
