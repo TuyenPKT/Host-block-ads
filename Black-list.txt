@@ -26,6 +26,9 @@ medium.com##.rp.ro.rn.m
 ||ghienphim.icu/*/*.gif$image
 phimchill.me###popads
 
+! https://www.ani24vn.com
+www.ani24vn.com###HTML15
+
 
 
 
