@@ -1,11 +1,12 @@
-# Title: TuyenPKT Black List (Beta)
-# Last modified: _time_stamp_ UTC+7
-# Version: _version_
-# Blocked: _domain_adult_ domains
-# Only include adult domains
-# Homepage: https://bigdargon.github.io/TuyenPKT/
-# GitHub: https://github.com/Uatu1218/Host-block-ads/
-# Report issues: 
-# Download: https://raw.githubusercontent.com/Uatu1218/Host-block-ads/main/Black-list.txt
-#
-# =====================================================
+! Title: TuyenPKT Black List (Beta)
+! Last modified: _time_stamp_ UTC+7
+! Version: _version_
+! Blocked: _domain_adult_ domains
+! ..............
+! URL: https://github.com/Uatu1218/Host-block-ads
+! Credits & ©: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+! ......................................
+! Download: https://raw.githubusercontent.com/Uatu1218/Host-block-ads/main/Host
+!  e-mail: admin@tuyen.vn
+!  Telegram: t.me/TuyenPKT
+! =====================================================
