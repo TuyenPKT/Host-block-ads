@@ -88,7 +88,6 @@ phimchill.me###popads
 ||*/k9win*.$image,xhr
 ||*/6688*.$image,xhr
 ||mupdam.*/$image
-||blogger.googleusercontent.com/img/b/*$image
 ||lh3.googleusercontent.com/pw/*$image
 ||dabet.*/$popup
 ||tai..*/$popup
