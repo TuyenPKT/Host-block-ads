@@ -2,10 +2,10 @@
 
 echo "Preparing files..."
 # convert hosts to filters
-cat source/White.txt | grep -v '#' | awk '{print $1}' > source/White.tmp
+cat source/White-list.txt | grep -v '#' | awk '{print $1}' > source/White.tmp
 sed -i "s/www\.//g" source/White.tmp
 sort -u -o source/White.tmp source/White.tmp
-cat source/Black.txt | grep -v '#' | awk '{print $1}' > source/Black.tmp
+cat source/Black-list.txt | grep -v '#' | awk '{print $1}' > source/Black.tmp
 sed -i "s/www\.//g" source/Black.tmp
 sort -u -o source/Black.tmp source/Black.tmp
 
@@ -15,8 +15,8 @@ echo "Making titles..."
 TIME_STAMP=$(date +'%d %b %Y %H:%M')
 VERSION=$(date +'%y%m%d%H%M')
 LC_NUMERIC="en_US.UTF-8"
-DOMAIN_ADULT=$(printf "%'.3d\n" $(cat source/White.txt | grep -v '#' | wc -l))
-DOMAIN_GAMBLING=$(printf "%'.3d\n" $(cat source/Black.txt | grep -v '#' | wc -l))
+DOMAIN_ADULT=$(printf "%'.3d\n" $(cat source/White-list.txt | grep -v '#' | wc -l))
+DOMAIN_GAMBLING=$(printf "%'.3d\n" $(cat source/Black-list.txt | grep -v '#' | wc -l))
 
 RULE_ADULT=$(printf "%'.3d\n" $(cat source/White.tmp | wc -l))
 RULE_GAMBLING=$(printf "%'.3d\n" $(cat source/Black.tmp | wc -l))
@@ -31,8 +31,8 @@ sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" -e "s/_rule_ga
 
 echo "Creating hosts file..."
 # create hosts files
-cat source/White.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/White-hosts.tmp
-cat source/Black.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/Black-hosts.tmp
+cat source/White-list.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/White-hosts.tmp
+cat source/Black-list.txt | grep -v '#' | grep -v -e '^[[:space:]]*$' | awk '{print "0.0.0.0 "$1}' | sort > tmp/Black-hosts.tmp
 
 
 cat tmp/White.tmp tmp/White-hosts.tmp > White/hosts
