@@ -25,9 +25,8 @@ medium.com##.rp.ro.rn.m
 ||ghienphim.icu/*.gif$image
 ||mephim.uk/*/shopee-voucher.png$image
 ||ghienphim.icu/*/*.gif$image
-phimchill.me###close-button
 phimchill.me###popads
-phimchill.me###catfish-banner
+
 
 
 
