@@ -27,10 +27,9 @@ medium.com##.rp.ro.rn.m
 phimchill.me###popads
 
 ! https://www.ani24vn.com
-||ani24vn.com###HTML15
-||ani24vn.com###HTML17
-||ani24vn.com###HTML13
-
+www.ani24vn.com###HTML15
+www.ani24vn.com###HTML17
+www.ani24vn.com###HTML13
 
 
 
