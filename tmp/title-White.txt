@@ -1,7 +1,6 @@
 ! Title: TuyenPKT White List (Beta)
 ! Last modified: _time_stamp_ UTC+7
 ! Version: _version_
-! Blocked: _domain_adult_ domains
 ! ..............
 ! URL: https://github.com/TuyenPKT/Host-block-ads
 ! Credits & ©: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
