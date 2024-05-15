@@ -11,7 +11,7 @@ sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" tmp/title-Blac
 sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" tmp/title-White.txt > tmp/title-White.tmp
 
 echo "Creating hosts file..."
-cat tmp/title-Black.tmp source/Black-list.txt source/White-list.txt > hosts
+cat tmp/title-Black.tmp source/Black-list.txt source/White-list.txt > Host
 
 echo "remove tmp file..."
 rm -rf tmp/*.tmp
