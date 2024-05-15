@@ -9,6 +9,7 @@ jobs:
       run:
         working-directory: ./scripts
     steps:
+      - run: npm install -g bats
       - name: Check out the repository to the runner
         uses: actions/checkout@v4  
       - name: Make the script files executable
