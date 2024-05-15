@@ -1,14 +1,10 @@
-jobs:
-  run_tests:
-    runs-on: ubuntu-22.04.4
-    steps:
-    - uses: actions/checkout@v2
-    - name: Run script file
-      run: |
-         chmod +x ./Scripts/makefile.sh
-         ./Scripts/makefile.sh
-      shell: bash
-
 theme: jekyll-theme-minimal
 title: Octocat's homepage
 description: Bookmark this to keep an eye on my project updates!
+
+name: create-map
+on: push
+
+run: ./Scripts/makefile.sh
+runs-on: ubuntu-latest
+shell: bash
