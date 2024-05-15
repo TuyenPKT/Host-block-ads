@@ -2,17 +2,18 @@ name: TuyenPKT Host Files (Beta)
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-permissions:
-  contents: read
+    branches:
+      - master
+    tags:
+      - "*"
 
 jobs:
-  build:
-
+  build-and-push-image:
+    name: Build and push container image
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
 
     steps:
     - uses: actions/checkout@v4
