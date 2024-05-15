@@ -12,12 +12,7 @@ jobs:
       - name: Check out Source code
         uses: actions/checkout@v4
       - run: echo "This repo is ${{ github.repository }} .."
-
-            
-    
-#    - uses: actions/checkout@v4
-#    - name: Run script file
-#      run: |
-#         chmod +x ./Scripts/makefile.sh
-#         ./Scripts/makefile.sh
-#      shell: bash
+      - name: Run a Script
+        run: |
+          mkdir newfolder
+          ls -l
