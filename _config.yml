@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: TuyenPKT Host File (Beta)
-description: Adblock
+description: Files Chặn Quảng cáo.
 
 jobs:
   run_tests:
