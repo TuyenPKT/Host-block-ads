@@ -1,4 +1,4 @@
-name: Host file make
+name: CI
 
 on:
   push:
