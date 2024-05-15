@@ -20,5 +20,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Make the script files executable
         run: chmod +x ./makefile.sh
+      - name: Get version
+        id: vars
+        run: echo "version=$(cat VERSION)" >> $GITHUB_OUTPUT
       - name: Run linter
         run: ./makefile.sh
