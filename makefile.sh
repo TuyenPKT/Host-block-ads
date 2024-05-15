@@ -21,7 +21,7 @@ rm -rf tmp/*.tmp
 echo "Checking duplicate..."
 sort source/White-list.txt | uniq -d
 sort source/Black-list.txt | uniq -d
-read -p "Completed! Press enter to close"
+
 
 
 
