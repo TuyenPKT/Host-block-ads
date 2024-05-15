@@ -1,24 +1,19 @@
 name: MakeFiles
 
-on:
-  push:
-    branches: ["main"]
-  pull_request:
-  workflow_dispatch:
-  
-jobs:
-  stale:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      packages: write
-      issues: write
-      pull-requests: write
+on: push
 
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    
     steps:
-      - name: Setup repo
-        uses: actions/checkout@v4
-      - name: Make the script files executable
-        run: chmod +x ./makefile.sh
-      - name: Run linter
-        run: ./makefile.sh
+    - run: echo -n -e source/Black-list.txt source/White-list.txt > Host
+
+    - uses: pCYSl5EDgo/cat@master
+      id: hello
+      with:
+        path: Host
+
+    - run: echo $TEXT
+      env:
+        TEXT: ${{ steps.hello.outputs.text }}
