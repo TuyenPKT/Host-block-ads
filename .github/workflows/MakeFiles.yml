@@ -16,8 +16,6 @@ jobs:
       pull-requests: write
 
     steps:
-      - name: Cat for GitHub Actions
-        uses: pCYSl5EDgo/cat@1.0.1 
       - name: Setup repo
         uses: actions/checkout@v4
       - name: Make the script files executable
