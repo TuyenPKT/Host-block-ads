@@ -1,0 +1,19 @@
+name: TuyenPKT Host File (Beta)
+
+on: push
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./scripts
+    steps:
+      - name: Check out the repository to the runner
+        uses: actions/checkout@v4  
+      - name: Make the script files executable
+        run: chmod +x makefile.sh
+      - name: Run the scripts
+        run: |
+          ./makefile.sh
+
