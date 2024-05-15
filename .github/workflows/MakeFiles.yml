@@ -18,10 +18,12 @@ jobs:
     steps:
       - name: Setup repo
         uses: actions/checkout@v4
-      - name: Make the script files executable
-        run: chmod +x ./makefile.sh
       - name: Get version
         id: vars
         run: echo "version=$(cat VERSION)" >> $GITHUB_OUTPUT
+      - name: Test output
+        run: echo ${{ steps.vars.outputs.version }}
+      - name: Make the script files executable
+        run: chmod +x ./makefile.sh
       - name: Run linter
         run: ./makefile.sh
