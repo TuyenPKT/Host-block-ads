@@ -1,14 +1,19 @@
-theme: jekyll-theme-minimal
-title: TuyenPKT Host File (Beta)
-description: Files Chặn Quảng cáo.
+name: TuyenPKT Host File (Beta)
+
+on: push
 
 jobs:
-  run_tests:
+  Selenium_Test_Job1:
+    name: TuyenPKT Host Test Job
     runs-on: ubuntu-latest
+    
     steps:
-    - uses: actions/checkout@v4
-    - name: Run script file
-      run: |
-         chmod +x ./Scripts/makefile.sh
-         ./Scripts/makefile.sh
-      shell: bash
+      - run: echo "This is a ${{ runer.os }} Server in Github"
+
+    
+#    - uses: actions/checkout@v4
+#    - name: Run script file
+#      run: |
+#         chmod +x ./Scripts/makefile.sh
+#         ./Scripts/makefile.sh
+#      shell: bash
