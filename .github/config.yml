@@ -9,7 +9,11 @@ jobs:
     
     steps:
       - run: echo "This is a ${{ runer.os }} Server in Github"
+      - name: Check out Source code
+        uses: actions/checkout@v4
+      - run: echo "This repo is ${{ github.repository }} .."
 
+            
     
 #    - uses: actions/checkout@v4
 #    - name: Run script file
