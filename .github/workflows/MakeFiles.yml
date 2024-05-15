@@ -7,11 +7,13 @@ on:
   workflow_dispatch:
   
 jobs:
-  run_tests:
+  stale:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
+      issues: write
+      pull-requests: write
 
     steps:
       - name: Setup repo
