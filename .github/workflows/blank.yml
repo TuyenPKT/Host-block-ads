@@ -18,4 +18,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run a one-line script
-        run: makefile.sh
+        run: ./makefile.sh
