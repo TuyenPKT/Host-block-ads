@@ -2,10 +2,12 @@ name: TuyenPKT Host Files (Beta)
 
 on:
   push:
-    branches:
-      - master
+    branches: [ "main" ]
     tags:
       - "*"
+  pull_request:
+    branches: [ "main" ]
+
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
