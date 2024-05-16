@@ -60,8 +60,8 @@ www.ani24vn.com###HTML13
 ||lh3.googleusercontent.com/pw/*$image
 ||dabet.*/$popup
 ||bit.ly/*$popup
-||i.imgur.com/*.gif$image
-||i.imgur.com/*.jpeg$image
+||i.imgur.com/*.gif$image,domain=~vn1.phimhd.tv
+||i.imgur.com/*.jpeg$image,domain=~vn1.phimhd.tv
 ||postimg.*/*$image,xhr
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
 
