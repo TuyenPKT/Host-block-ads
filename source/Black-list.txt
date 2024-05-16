@@ -35,7 +35,7 @@ phimtv.net###hide_catfish
 ! 2024-05-16 https://sdfim.com
 ||sdfim.com/*/2024/*.mp4$media
 
-||mephim.uk/*/shopee*$all
+
 ||chillhay.asia/*.gif$image
 ||ghienphim.icu^*.gif
 ||78910.tv^
@@ -81,6 +81,7 @@ phimtv.net###hide_catfish
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
 ||shopee.vn/*$popup,domain=vn.phimmoitv.org|phimmoichillr.net
 
+/images/shopee*$image,all
 /newchill/*.webp$image
 /qc/*.gif$image
 /k9win*.$image,xhr
