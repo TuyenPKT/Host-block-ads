@@ -36,6 +36,7 @@ phimtv.net###hide_catfish
 ||sdfim.com/*/2024/*.mp4$media
 
 ||mephim.uk/*/shopee*$all
+||chillhay.asia/*.gif$image,domain=~phimchill.me
 ||ghienphim.icu^*.gif
 ||78910.tv^
 ||shp.ee^
