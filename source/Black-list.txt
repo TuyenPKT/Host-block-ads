@@ -22,6 +22,11 @@ www.ani24vn.com###HTML15
 www.ani24vn.com###HTML17
 www.ani24vn.com###HTML13
 
+! https://vn1.phimhd.tv
+vn1.phimhd.tv###banner1
+vn1.phimhd.tv##div.topbanner:nth-of-type(2)
+vn1.phimhd.tv##div.topbanner:nth-of-type(3)
+
 ||ghienphim.icu^*.gif
 ||78910.tv^
 ||shp.ee^
@@ -64,8 +69,9 @@ www.ani24vn.com###HTML13
 ||i.imgur.com/*.jpeg$image,domain=~vn1.phimhd.tv
 ||postimg.*/*$image,xhr
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
+||shopee.vn/*$popup,domain=vn.phimmoitv.org|phimmoichillr.net
 
-/newchill/*.webp$image,domain=~phimmoichillr.net
+/newchill/*.webp$image,domain=phimmoichillr.net
 /shopee-*$domain=~phimchill.me
 /qc/*.gif$domain=~phimchill.me
 /k9win*.$image,xhr
