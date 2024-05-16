@@ -81,8 +81,8 @@ phimtv.net###hide_catfish
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
 ||shopee.vn/*$popup,domain=vn.phimmoitv.org|phimmoichillr.net
 
-/newchill/*.webp$image,domain=phimmoichillr.net
-/qc/*.gif$domain=~phimchill.me
+/newchill/*.webp$image
+/qc/*.gif$image
 /k9win*.$image,xhr
 /6688*.$image,xhr
 /m88/*$xhr,image
