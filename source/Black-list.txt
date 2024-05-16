@@ -15,7 +15,6 @@
 medium.com##.rp.ro.rn.m
 
 ! https://phimchill.me
-||ghienphim.icu^*.gif
 phimchill.me###popads
 
 ! https://www.ani24vn.com
@@ -23,7 +22,7 @@ www.ani24vn.com###HTML15
 www.ani24vn.com###HTML17
 www.ani24vn.com###HTML13
 
-
+||ghienphim.icu^*.gif
 ||78910.tv^
 ||shp.ee^
 ||man.vip^
