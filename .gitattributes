@@ -1,1 +1,2 @@
-Host linguist-detectable linguist-language=hosts
+source/White-list.txt linguist-detectable linguist-language=hosts
+source/Black-list.txt linguist-detectable linguist-language=hosts
