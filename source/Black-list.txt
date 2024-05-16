@@ -16,7 +16,6 @@ medium.com##.rp.ro.rn.m
 
 ! https://phimchill.me
 ||ghienphim.icu/*.gif$image
-||mephim.uk/*/shopee*.*$image
 ||ghienphim.icu/*/*.gif$image
 phimchill.me###popads
 
@@ -70,6 +69,7 @@ www.ani24vn.com###HTML13
 ||postimg.*/*$image,xhr
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
 
+/shopee-*.*$from=~mcleaks.net
 /qc/*.gif$from=~mcleaks.net
 /k9win*.$image,xhr
 /6688*.$image,xhr
