@@ -80,7 +80,7 @@ phimtv.net###hide_catfish
 ||shopee.vn/*$popup,domain=vn.phimmoitv.org|phimmoichillr.net
 
 /newchill/*.webp$image,domain=phimmoichillr.net
-/shopee-*$domain=~phimchill.me
+/shopee-*$domain=~phimchill.me|mephim.uk
 /qc/*.gif$domain=~phimchill.me
 /k9win*.$image,xhr
 /6688*.$image,xhr
