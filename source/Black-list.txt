@@ -65,8 +65,8 @@ www.ani24vn.com###HTML13
 ||postimg.*/*$image,xhr
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
 
-/images/shopee-*$3p,from=~mcleaks.net
-/qc/*.gif$from=~mcleaks.net
+/images/shopee-*$strict3p
+/qc/*.gif
 /k9win*.$image,xhr
 /6688*.$image,xhr
 /m88/*$xhr,image
