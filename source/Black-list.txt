@@ -30,7 +30,7 @@ www.ani24vn.com###HTML13
 ||man.vip^
 ||best-free-apps.*/
 ||hsunwin6.*/
-||shope.ee/*$image,xhr,popup
+||shope.ee^
 ||6686vn80.*/
 ||i9007.*/
 ||178.128.105.91^
@@ -81,7 +81,7 @@ www.ani24vn.com###HTML13
 /ab77/*$xhr,image
 /k9/*$xhr,image
 /td/*$xhr,image
-/shope.ee/*$popup
+/shope.ee/*$popup,image,xhr
 /f8bet*/*$popup
 /m88/*$image
 /i999*$image
