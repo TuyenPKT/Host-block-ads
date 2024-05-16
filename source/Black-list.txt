@@ -65,7 +65,7 @@ www.ani24vn.com###HTML13
 ||postimg.*/*$image,xhr
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
 
-/images/shopee-*$strict3p
+/images/shopee-*$domain=phimchill.me
 /qc/*.gif
 /k9win*.$image,xhr
 /6688*.$image,xhr
