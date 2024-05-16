@@ -73,8 +73,6 @@ www.ani24vn.com###HTML13
 ||f8game.*/
 ||clmm..*/*$image
 ||kuwin09.*/
-||*/k9win*.$image,xhr
-||*/6688*.$image,xhr
 ||mupdam.*/$image
 ||lh3.googleusercontent.com/pw/*$image
 ||dabet.*/$popup
@@ -83,10 +81,10 @@ www.ani24vn.com###HTML13
 ||i.imgur.com/*.gif$image
 ||i.imgur.com/*.jpeg$image
 ||postimg.*/*$image,xhr
-||*.postimg.*/*$image,xhr
-||*.pixhost.*/*$image,xhr
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
 
+/k9win*.$image,xhr
+/6688*.$image,xhr
 /m88/*$xhr,image
 /f8b/*$xhr,image
 /i9/*$xhr,image
