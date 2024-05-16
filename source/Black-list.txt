@@ -65,8 +65,8 @@ vn1.phimhd.tv##div.topbanner:nth-of-type(3)
 ||lh3.googleusercontent.com/pw/*$image
 ||dabet.*/$popup
 ||bit.ly/*$popup
-||i.imgur.com/*.gif$image,domain=~vn1.phimhd.tv
-||i.imgur.com/*.jpeg$image,domain=~vn1.phimhd.tv
+||i.imgur.com/*.gif$image,domain=~mcleaks.net
+||i.imgur.com/*.jpeg$image,domain=~mcleaks.net
 ||postimg.*/*$image,xhr
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
 ||shopee.vn/*$popup,domain=vn.phimmoitv.org|phimmoichillr.net
