@@ -27,6 +27,11 @@ vn1.phimhd.tv###banner1
 vn1.phimhd.tv##div.topbanner:nth-of-type(2)
 vn1.phimhd.tv##div.topbanner:nth-of-type(3)
 
+! https://phimtv.net
+||phimtv.net/*/i9s*.webp$image
+phimtv.net###mp-preload-popup-overlay
+phimtv.net###hide_catfish
+
 ||ghienphim.icu^*.gif
 ||78910.tv^
 ||shp.ee^
