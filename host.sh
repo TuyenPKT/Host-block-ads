@@ -7,5 +7,5 @@
 
 
 echo "Checking duplicate..."
-sort option/domain.txt | uniq -d
-sort filters/adservers-all.txt | uniq -d
+sort source/Black-list.txt | uniq -d
+sort source/White-list.txt | uniq -d
