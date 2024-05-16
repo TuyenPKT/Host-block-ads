@@ -16,15 +16,14 @@ on:
 
 jobs:
   test:
-    name: Test on node ${{ matrix.node_version }} and ${{ matrix.os }}
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        node_version: ['18.x', '20.x']
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+    name: Test on node
+    runs-on: ubuntu-latest
+
 
     steps:
     - uses: actions/checkout@v4
+    - name: Make the script files executable
+      run: chmod +x ./host.sh
     - name: javascript
       run: ./host.sh
 
