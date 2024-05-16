@@ -27,7 +27,6 @@ www.ani24vn.com###HTML13
 
 
 ||78910.tv^
-||chillhay.asia^
 ||shp.ee^
 ||man.vip^
 ||best-free-apps.*/
@@ -71,6 +70,7 @@ www.ani24vn.com###HTML13
 ||postimg.*/*$image,xhr
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
 
+/qc/*.gif$from=~mcleaks.net
 /k9win*.$image,xhr
 /6688*.$image,xhr
 /m88/*$xhr,image
