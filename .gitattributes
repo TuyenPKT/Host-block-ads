@@ -1,2 +1,2 @@
-source/White-list.txt linguist-detectable linguist-language=hosts
-source/Black-list.txt linguist-detectable linguist-language=hosts
+/source/* linguist-detectable linguist-language=hosts
+
