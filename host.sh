@@ -5,7 +5,7 @@ echo "Making titles..."
 TIME_STAMP=$(date +'%d %b %Y %H:%M')
 VERSION=$(date +'%y%m%d%H%M')
 
-echo "Making titles..."
+
 sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" tmp/title-Black.txt > tmp/title-Black.tmp
 sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" tmp/title-White.txt > tmp/title-White.tmp
 
