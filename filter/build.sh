@@ -12,7 +12,7 @@ echo >> src/Black_title.tmp
 # add to 1 file
 # abpvn.txt
 cat src/Black_title.tmp src/Black_list.txt > Black_list.tmp
-sed -e '/^$/d' -e "s/.patch#/.patch#abpvn/" Black_list.tmp > Hosts
+sed -e '/^$/d' -e "s/.patch#/" Black_list.tmp > Hosts
 
 # remove tmp file
 rm -rf *.tmp src/*.tmp
