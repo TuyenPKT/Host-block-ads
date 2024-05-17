@@ -35,7 +35,9 @@ phimtv.net###hide_catfish
 ! 2024-05-16 https://sdfim.com
 ||sdfim.com/*/2024/*.mp4$media
 
-
+||motphimtv.lol/*.gif$image
+||phimchill.me/*.gif$image
+||mephim.uk/*$all
 ||chillhay.asia/*.gif$image
 ||ghienphim.icu^*.gif
 ||78910.tv^
