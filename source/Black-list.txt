@@ -81,7 +81,11 @@ sdfim.com/*/2024/*.mp4$media
 ||i.imgur.com/*.jpeg$image,domain=~mcleaks.net
 ||postimg.*/*$image,xhr
 ||qph.cf2.quoracdn.net/main-qimg*$image,xhr
-||shopee.vn/*$popup,domain=vn.phimmoitv.org|phimmoichillr.net
+||shopee.vn/*$popup,3p
+||ads.starzd.com^
+||bf.333xbet.com^
+
+
 
 /images/shopee*$image,all
 /newchill/*.webp$image
