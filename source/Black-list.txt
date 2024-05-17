@@ -79,28 +79,28 @@ sdfim.com/*/2024/*.mp4$media
 ||bit.ly/*$popup
 ||i.imgur.com/*.gif$image,domain=~mcleaks.net
 ||i.imgur.com/*.jpeg$image,domain=~mcleaks.net
-||postimg.*/*$image,xhr
-||qph.cf2.quoracdn.net/main-qimg*$image,xhr
+||postimg.*/*$image,xmlhttprequest
+||qph.cf2.quoracdn.net/main-qimg*$image,xmlhttprequest
 ||shopee.vn/*$popup,3p
 ||ads.starzd.com^
 ||bf.333xbet.com^
 
 
-
+/mmo/*$xmlhttprequest,image,domain=vuighe3.com
 /images/shopee*$image,all
 /newchill/*.webp$image
 /qc/*.gif$image
-/k9win*.$image,xhr
-/6688*.$image,xhr
-/m88/*$xhr,image
-/f8b/*$xhr,image
-/i9/*$xhr,image
-/f88/*$xhr,image
-/h88/*$xhr,image
-/ab77/*$xhr,image
-/k9/*$xhr,image
-/td/*$xhr,image
-/shope.ee/*$popup,image,xhr
+/k9win*.$image,xmlhttprequest
+/6688*.$image,xmlhttprequest
+/m88/*$xmlhttprequest,image
+/f8b/*$xmlhttprequest,image
+/i9/*$xmlhttprequest,image
+/f88/*$xmlhttprequest,image
+/h88/*$xmlhttprequest,image
+/ab77/*$xmlhttprequest,image
+/k9/*$xmlhttprequest,image
+/td/*$xmlhttprequest,image
+/shope.ee/*$popup,image,xmlhttprequest
 /f8bet*/*$popup
 /m88/*$image
 /i999*$image
@@ -120,7 +120,7 @@ sdfim.com/*/2024/*.mp4$media
 /ab77/*$image
 /k9/*$image
 /td/*$image
-/vip79*.*/*$image,xhr
+/vip79*.*/*$image,xmlhttprequest
 /ta88*.*/*$image,xhr
 
 
