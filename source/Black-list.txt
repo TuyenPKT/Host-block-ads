@@ -127,3 +127,4 @@ phimtv.net###hide_catfish
 /td/*$image
 /vip79*.*/*$image,xmlhttprequest
 /ta88*.*/*$image,xmlhttprequest
+/_1/i9b*.gif$image
