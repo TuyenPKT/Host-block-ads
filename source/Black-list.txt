@@ -37,7 +37,7 @@ phimtv.net###hide_catfish
 
 ||motphimtv.lol^*.gif$image
 ||phimchill.me^*.gif$image
-||mephim.uk^*.gif$image
+||mephim.uk^*.png$image
 ||chillhay.asia^*.gif$image
 ||ghienphim.icu^*.gif$image
 ||78910.tv^
