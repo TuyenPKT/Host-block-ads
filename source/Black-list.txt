@@ -121,6 +121,6 @@ sdfim.com/*/2024/*.mp4$media
 /k9/*$image
 /td/*$image
 /vip79*.*/*$image,xmlhttprequest
-/ta88*.*/*$image,xhr
+/ta88*.*/*$image,xmlhttprequest
 
 
