@@ -39,7 +39,7 @@ phimtv.net###hide_catfish
 
 
 
-||sdfim.com^*.gif$image
+||sdfim.com/*/uploads/*.gif$image
 ||motphimtv.lol^*.gif$image
 ||phimchill.me^*.gif$image
 ||mephim.uk^*.png
