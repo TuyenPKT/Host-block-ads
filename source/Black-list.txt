@@ -36,10 +36,9 @@ phimtv.net###hide_catfish
 /6686.mp4$xmlhttprequest
 ||short.ink^$subdocument
 ||abysscdn.com^$subdocument
-
-
-! 2024-05-17 https://ronemo.com
 ||ronemo.com^$subdocument
+
+
 ||sdfim.com^*.gif
 ||motphimtv.lol^*.gif$image
 ||phimchill.me^*.gif$image
