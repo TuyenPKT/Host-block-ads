@@ -15,7 +15,7 @@
 medium.com##.rp.ro.rn.m
 
 ! https://phimchill.me
-phimchill.me###popads
+###popads
 
 ! https://www.ani24vn.com
 www.ani24vn.com###HTML15
