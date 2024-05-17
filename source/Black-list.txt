@@ -33,7 +33,7 @@ phimtv.net###mp-preload-popup-overlay
 phimtv.net###hide_catfish
 
 ! https://sdfim.com
-/6686.mp4$xmlhttprequest
+||sdfim.com^*.mp4$media
 ||short.ink^$subdocument
 ||abysscdn.com^$subdocument
 ||ronemo.com^$subdocument
