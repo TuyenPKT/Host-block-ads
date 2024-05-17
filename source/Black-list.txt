@@ -105,7 +105,7 @@ sdfim.com/*/2024/*.mp4$media
 /banner/*/*.gif$image
 /popup*.gif$image
 /close*$image
-/thantai*.$image
+/thantai*$image
 /url-sw2/*$popup
 /vIKW6ps*$image
 /ad_banner/*/*$image
