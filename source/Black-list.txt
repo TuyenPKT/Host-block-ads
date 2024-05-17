@@ -34,8 +34,8 @@ phimtv.net###hide_catfish
 
 ! https://sdfim.com
 ||sdfim.com/*/uploads/*.mp4$media
-||short.ink^$media
-||abysscdn.com^$media
+||short.ink^$media,xmlhttprequest
+||abysscdn.com^$media,xmlhttprequest
 
 
 
