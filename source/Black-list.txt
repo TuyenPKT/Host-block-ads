@@ -33,18 +33,18 @@ phimtv.net###mp-preload-popup-overlay
 phimtv.net###hide_catfish
 
 ! https://sdfim.com
-||sdfim.com^*.mp4$media
+||sdfim.com^*.mp4
 ||short.ink^$subdocument
 ||abysscdn.com^$subdocument
 
 
 
 ||sdfim.com^*.gif
-||motphimtv.lol^*.gif$image
-||phimchill.me^*.gif$image
-||mephim.uk^*.png$image
-||chillhay.asia^*.gif$image
-||ghienphim.icu^*.gif$image
+||motphimtv.lol^*.gif
+||phimchill.me^*.gif
+||mephim.uk^*.png
+||chillhay.asia^*.gif
+||ghienphim.icu^*.gif
 ||78910.tv^
 ||shp.ee^
 ||man.vip^
@@ -82,8 +82,8 @@ phimtv.net###hide_catfish
 ||lh3.googleusercontent.com/pw/*$image
 ||dabet.*/$popup
 ||bit.ly/*$popup
-||i.imgur.com/*.gif$image,domain=~mcleaks.net
-||i.imgur.com/*.jpeg$image,domain=~mcleaks.net
+||i.imgur.com/*.gif$domain=~mcleaks.net
+||i.imgur.com/*.jpeg$domain=~mcleaks.net
 ||postimg.*/*$image,xmlhttprequest
 ||qph.cf2.quoracdn.net/main-qimg*$image,xmlhttprequest
 ||shopee.vn/*$popup,3p
@@ -109,10 +109,10 @@ phimtv.net###hide_catfish
 /f8bet*/*$popup
 /m88/*$image
 /i999*$image
-/ads/*.gif$image
-/gp/*.gif$image
-/banner/*/*.gif$image
-/popup*.gif$image
+/ads/*.gif
+/gp/*.gif
+/banner/*/*.gif
+/popup*.gif
 /close*$image
 /thantai*$image
 /url-sw2/*$popup
