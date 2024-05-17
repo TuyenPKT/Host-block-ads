@@ -18,19 +18,19 @@ medium.com##.rp.ro.rn.m
 ###popads
 
 ! https://www.ani24vn.com
-www.ani24vn.com###HTML15
-www.ani24vn.com###HTML17
-www.ani24vn.com###HTML13
+||www.ani24vn.com###HTML15
+||www.ani24vn.com###HTML17
+||www.ani24vn.com###HTML13
 
 ! https://vn1.phimhd.tv
-vn1.phimhd.tv###banner1
-vn1.phimhd.tv##div.topbanner:nth-of-type(2)
-vn1.phimhd.tv##div.topbanner:nth-of-type(3)
+||vn1.phimhd.tv###banner1
+||vn1.phimhd.tv##div.topbanner:nth-of-type(2)
+||vn1.phimhd.tv##div.topbanner:nth-of-type(3)
 
 ! 2024-05-16 https://phimtv.net
 ||phimtv.net/*/i9s*.webp$image
-phimtv.net###mp-preload-popup-overlay
-phimtv.net###hide_catfish
+||phimtv.net###mp-preload-popup-overlay
+||phimtv.net###hide_catfish
 
 ! https://sdfim.com
 ||sdfim.com/*/2024/*.mp4$media
