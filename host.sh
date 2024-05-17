@@ -6,12 +6,8 @@ TIME_STAMP=$(date +'%d %b %Y %H:%M')
 VERSION=$(date +'%y%m%d%H%M')
 
 
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" tmp/title-Black.txt > tmp/title-Black.tmp
-sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" tmp/title-White.txt > tmp/title-White.tmp
-
-echo "Creating hosts file..."
-cat tmp/title-Black.tmp source/Black-list.txt source/White-list.txt > hosts
-
+sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" source/Black-list.txt > source/Black-list.txt
+sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" source/Black-list.txt > source/Black-list.txt
 
 echo "Checking duplicate..."
 sort source/Black-list.txt | uniq -d
