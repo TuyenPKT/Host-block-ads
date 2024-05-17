@@ -36,7 +36,7 @@ phimtv.net###hide_catfish
 ||sdfim.com^*.mp4$media
 ||short.ink^$subdocument
 ||abysscdn.com^$subdocument
-||ronemo.com^$subdocument
+
 
 
 ||sdfim.com^*.gif
