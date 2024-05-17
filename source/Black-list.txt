@@ -33,7 +33,7 @@ phimtv.net###mp-preload-popup-overlay
 phimtv.net###hide_catfish
 
 ! https://sdfim.com
-||sdfim.com/*/2024/*.mp4$media
+sdfim.com/*/2024/*.mp4$media
 
 ||motphimtv.lol^*.gif$image
 ||phimchill.me^*.gif$image
