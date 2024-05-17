@@ -32,7 +32,7 @@ vn1.phimhd.tv##div.topbanner:nth-of-type(3)
 phimtv.net###mp-preload-popup-overlay
 phimtv.net###hide_catfish
 
-! 2024-05-16 https://sdfim.com
+! https://sdfim.com
 ||sdfim.com/*/2024/*.mp4$media
 
 ||motphimtv.lol^*.gif$image
