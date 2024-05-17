@@ -33,18 +33,18 @@ phimtv.net###mp-preload-popup-overlay
 phimtv.net###hide_catfish
 
 ! https://sdfim.com
-||sdfim.com^*.mp4
+||sdfim.com^*.mp4$media
 ||short.ink^$subdocument
 ||abysscdn.com^$subdocument
 
 
 
-||sdfim.com^*.gif
-||motphimtv.lol^*.gif
-||phimchill.me^*.gif
+||sdfim.com^*.gif$image
+||motphimtv.lol^*.gif$image
+||phimchill.me^*.gif$image
 ||mephim.uk^*.png
-||chillhay.asia^*.gif
-||ghienphim.icu^*.gif
+||chillhay.asia^*.gif$image
+||ghienphim.icu^*.gif$image
 ||78910.tv^
 ||shp.ee^
 ||man.vip^
@@ -109,10 +109,10 @@ phimtv.net###hide_catfish
 /f8bet*/*$popup
 /m88/*$image
 /i999*$image
-/ads/*.gif
-/gp/*.gif
-/banner/*/*.gif
-/popup*.gif
+/ads/*.gif$image
+/gp/*.gif$image
+/banner/*/*.gif$image
+/popup*.gif$image
 /close*$image
 /thantai*$image
 /url-sw2/*$popup
