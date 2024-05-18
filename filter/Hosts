@@ -1,6 +1,6 @@
 ! Title: TuyenPKT Black List (Beta)
-! Last modified: 18 May 2024 12:13:32 UTC+7
-! Version: 20240518121332859
+! Last modified: 18 May 2024 15:00:01 UTC+7
+! Version: 20240518150013436
 ! ..............
 ! URL: https://github.com/TuyenPKT/Host-block-ads
 ! Credits & ©: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
@@ -9,7 +9,6 @@
 !  e-mail: admin@tuyen.vn
 !  Telegram: t.me/TuyenPKT
 ! =====================================================
-
 
 
 ! https://medium.com
@@ -129,4 +128,28 @@ phimtv.net###hide_catfish
 /vip79*.*/*$image,xmlhttprequest
 /ta88*.*/*$image,xmlhttprequest
 /_1/i9b*.gif$image
+
+! =====================================================
+
+@@||over.network^
+@@||msftconnecttest.com^
+@@||microsoftemail.com^
+@@||bntrace.com^
+@@||binance.info^
+@@||binance.com^
+@@||oceif.com^
+@@||tuyen.vn^
+@@||tuyen.io.vn^
+@@||tuyên.vn^
+@@||tuyen.top^
+@@||vuighe.net^
+@@||medium.com^
+@@||pixels.xyz^
+@@||d3.app^
+@@||b6gl6.ddns.net^
+@@||minepi.com^
+@@||malwarebytes.com^
+@@||stytch.com^
+@@||lrepacks.net^
+@@||titannet.io^
 

@@ -8,10 +8,12 @@ fi
 
 sed -e "s/_time_stamp_/$TIME_STAMP/g" -e "s/_version_/$VERSION/g" src/Black_title.txt > src/Black_title.tmp
 echo >> src/Black_title.tmp
-# add to 1 file
+
 # abpvn.txt
 cat src/Black_title.tmp src/Black_list.txt > Black_list.tmp
-cat Black_list.tmp White_list.txt > Hosts
+cat Black_list.tmp src/White_list.txt > Hosts
 echo >> Hosts
 # remove tmp file
 rm -rf *.tmp src/*.tmp
+
+
