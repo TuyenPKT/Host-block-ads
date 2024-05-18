@@ -1,0 +1,82 @@
+name: Build filter
+
+on:
+  workflow_dispatch:
+    inputs:
+      FORCE_BUILD:
+        description: Force filter build
+        type: boolean
+        default: false
+      DRY_RUN:
+        description: Dry run without push
+        type: boolean
+        default: false
+  schedule:
+    - cron: 0 2,5,8,11,16 * * * # Run at 9, 12, 15, 18, 23 hour in UTC + 7
+  push:
+    branches: [main]
+
+env:
+  NEED_BUILD_MAIN: ${{inputs.FORCE_BUILD || false}}
+  DRY_RUN: ${{inputs.DRY_RUN || false}}
+
+jobs:
+  build_filter_main:
+    if: ${{ github.repository_owner == 'abpvn' && (contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) || contains(github.event.head_commit.message, '[build]')) }}
+    runs-on: ubuntu-latest
+    outputs:
+      NEED_BUILD_MAIN: ${{steps.check_build.outputs.NEED_BUILD_MAIN}}
+    steps:
+      - uses: hoang-rio/set-timezone@v1.4
+        with:
+          timezoneLinux: "Asia/Ho_Chi_Minh"
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Check need to build
+        id: check_build
+        if: ${{ env.NEED_BUILD_MAIN == 'false'}}
+        working-directory: ./filter
+        run: |
+          bash build.sh
+          DIFF_STAT=$(git diff --stat abpvn_ublock.txt)
+          DIFF_STAT_CONTENT=$(git diff --stat abpvn_content_blocker.txt)
+          echo $DIFF_STAT
+          echo $DIFF_STAT_CONTENT
+          if [[ "$DIFF_STAT" != *"| 6 +++---"* || "$DIFF_STAT_CONTENT" != *"| 6 +++---"* ]]; then
+            echo "Need build to update to latest version"
+            NEED_BUILD_MAIN=true
+            echo "NEED_BUILD_MAIN=$NEED_BUILD_MAIN" >> $GITHUB_ENV
+          else
+            echo "Nothing to build"
+          fi
+          git checkout .
+          if [ '${{env.DRY_RUN}}' == 'false' ]; then
+            echo "NEED_BUILD_MAIN=$NEED_BUILD_MAIN" >> $GITHUB_OUTPUT
+          fi
+      - name: Build filter
+        if: ${{ env.NEED_BUILD_MAIN == 'true' }}
+        continue-on-error: true
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          BUILD_OUTPUT=$(bash commit.sh true)
+          GIT_TAG=$(cat version)
+          git commit -m "Auto build filter on main to $GIT_TAG"
+          git tag $GIT_TAG
+          if [ '${{env.DRY_RUN}}' == 'false' ]; then
+            git push origin main
+            git push origin $GIT_TAG
+          fi
+          DEL_VERSIONS=''
+          REGEX=These[[:space:]]tag[[:space:]]should[[:space:]]be[[:space:]]delete[[:space:]]manualy:[[:space:]]'(.*)'
+          [[ ${BUILD_OUTPUT} =~ $REGEX ]] && \
+            DEL_VERSIONS=${BASH_REMATCH[1]}
+          DEL_VERSIONS=$(echo "$DEL_VERSIONS" | sed -e "s/'//g")
+          echo "Version to delete: $DEL_VERSIONS"
+          if [ "$DEL_VERSIONS" != "" ]; then
+            if [ '${{env.DRY_RUN}}' == 'false' ]; then
+              git push -d origin $DEL_VERSIONS
+            fi
+          fi
