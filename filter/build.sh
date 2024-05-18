@@ -1,6 +1,5 @@
 #!/bin/sh
-bash sort.sh
-# make time stamp update
+
 TIME_STAMP=`date +'%d %b %Y %H:%M:%S'`
 VERSION=$1
 if [[ -z $VERSION ]]; then
@@ -12,7 +11,7 @@ echo >> src/Black_title.tmp
 # add to 1 file
 # abpvn.txt
 cat src/Black_title.tmp src/Black_list.txt > Black_list.tmp
-sed -e '/^$/d' -e "s/.patch#/" Black_list.tmp > Hosts
-
+cat Black_list.tmp White_list.txt > Hosts
+echo >> Hosts
 # remove tmp file
 rm -rf *.tmp src/*.tmp

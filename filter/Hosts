@@ -1,0 +1,132 @@
+! Title: TuyenPKT Black List (Beta)
+! Last modified: 18 May 2024 12:13:32 UTC+7
+! Version: 20240518121332859
+! ..............
+! URL: https://github.com/TuyenPKT/Host-block-ads
+! Credits & ©: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+! ......................................
+! Download: https://raw.githubusercontent.com/TuyenPKT/Host-block-ads/main/Host
+!  e-mail: admin@tuyen.vn
+!  Telegram: t.me/TuyenPKT
+! =====================================================
+
+
+
+! https://medium.com
+medium.com##.rp.ro.rn.m
+
+! https://phimchill.me
+###popads
+
+! https://www.ani24vn.com
+www.ani24vn.com###HTML15
+www.ani24vn.com###HTML17
+www.ani24vn.com###HTML13
+
+! https://vn1.phimhd.tv
+vn1.phimhd.tv###banner1
+vn1.phimhd.tv##div.topbanner:nth-of-type(2)
+vn1.phimhd.tv##div.topbanner:nth-of-type(3)
+
+! https://phimtv.net
+phimtv.net/*/i9s*.webp$image
+phimtv.net###mp-preload-popup-overlay
+phimtv.net###hide_catfish
+
+! https://sdfim.com
+||sdfim.com/*/uploads/*.mp4$media
+||short.ink^$media,xmlhttprequest
+||abysscdn.com^$media,xmlhttprequest
+
+
+
+||sdfim.com/*/uploads/*.gif$image
+||motphimtv.lol^*.gif$image
+||phimchill.me^*.gif$image
+||mephim.uk^*.png
+||chillhay.asia^*.gif$image
+||ghienphim.icu^*.gif$image
+||78910.tv^
+||shp.ee^
+||man.vip^
+||best-free-apps.*/
+||hsunwin6.*/
+||shope.ee^
+||6686vn80.*/
+||i9007.*/
+||178.128.105.91^
+||i9005.*/
+||5pink.*/
+||5pink.*/*/
+||5pink.*/*$image
+||decaga.*/
+||tdtchh.*/
+||pheclip.*/
+||sunwin7.*/
+||saigonbet.*/
+||sunwinbet.*/
+||xoso8811.*/
+||t7cp4fldl.*/
+||shopee.clgt.xyz^
+||xoso8811.*/
+||five88.*/
+||i9015.*/
+||dabet.*/
+||vvvwin588.*/
+||f8bet.*/
+||VVVwin.*/
+||vvvwin88.*/
+||f8game.*/
+||clmm..*/*$image
+||kuwin09.*/
+||mupdam.*/$image
+||lh3.googleusercontent.com/pw/*$image
+||dabet.*/$popup
+||bit.ly/*$popup
+||i.imgur.com/*.gif$domain=~mcleaks.net
+||i.imgur.com/*.jpeg$domain=~mcleaks.net
+||postimg.*/*$image,xmlhttprequest
+||qph.cf2.quoracdn.net/main-qimg*$image,xmlhttprequest
+||shopee.vn/*$popup,3p
+||ads.starzd.com^
+||bf.333xbet.com^
+
+
+/mmo/*$xmlhttprequest,image,domain=vuighe3.com
+/images/shopee*$image,all
+/newchill/*.webp$image
+/qc/*.gif$image
+/k9win*.$image,xmlhttprequest
+/6688*.$image,xmlhttprequest
+/m88/*$xmlhttprequest,image
+/f8b/*$xmlhttprequest,image
+/i9/*$xmlhttprequest,image
+/f88/*$xmlhttprequest,image
+/h88/*$xmlhttprequest,image
+/ab77/*$xmlhttprequest,image
+/k9/*$xmlhttprequest,image
+/td/*$xmlhttprequest,image
+/shope.ee/*$popup,image,xmlhttprequest
+/f8bet*/*$popup
+/m88/*$image
+/i999*$image
+/ads/*.gif$image
+/gp/*.gif$image
+/banner/*/*.gif$image
+/popup*.gif$image
+/close*$image
+/thantai*$image
+/url-sw2/*$popup
+/vIKW6ps*$image
+/ad_banner/*/*$image
+/f8b/*$image
+/i9/*$image
+/f88/*$image
+/h88/*$image
+/ab77/*$image
+/k9/*$image
+/td/*$image
+/vip79*.*/*$image,xmlhttprequest
+/ta88*.*/*$image,xmlhttprequest
+/_1/i9b*.gif$image
+
