@@ -27,7 +27,7 @@ jobs:
     outputs:
       NEED_BUILD_MAIN: ${{steps.check_build.outputs.NEED_BUILD_MAIN}}
     steps:
-      - uses: hoang-rio/set-timezone@v1.4
+      - uses: TuyenPKT/set-timezone@v1.4
         with:
           timezoneLinux: "Asia/Ho_Chi_Minh"
       - uses: actions/checkout@v4
