@@ -21,13 +21,8 @@ phimtv.net/*/i9s*.webp$image
 phimtv.net###mp-preload-popup-overlay
 phimtv.net###hide_catfish
 
-! https://sdfim.com
-||sdfim.com/*/uploads/*.mp4$media
-||short.ink^$media,xmlhttprequest
-||abysscdn.com^$media,xmlhttprequest
-
-
-
+||mephimtrung.org^*.gif$image
+||www.bk8vnaf.com^*.gif$image
 ||sdfim.com/*/uploads/*.gif$image
 ||motphimtv.lol^*.gif$image
 ||phimchill.me^*.gif$image
