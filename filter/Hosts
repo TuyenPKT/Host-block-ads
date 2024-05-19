@@ -1,6 +1,6 @@
 ! Title: TuyenPKT Black List (Beta)
-! Last modified: 19 May 2024 13:10:08 UTC+7
-! Version: 20240519131018003
+! Last modified: 19 May 2024 13:18:48 UTC+7
+! Version: 20240519131848876
 ! ..............
 ! URL: https://github.com/TuyenPKT/Host-block-ads
 ! Credits & ©: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
@@ -32,6 +32,7 @@ phimtv.net/*/i9s*.webp$image
 phimtv.net###mp-preload-popup-overlay
 phimtv.net###hide_catfish
 
+||imagedelivery.net^*$image
 ||mephimtrung.org^*.gif$image
 ||www.bk8vnaf.com^*.gif$image
 ||sdfim.com/*/uploads/*.gif$image

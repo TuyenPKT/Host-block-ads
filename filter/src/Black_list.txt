@@ -21,6 +21,7 @@ phimtv.net/*/i9s*.webp$image
 phimtv.net###mp-preload-popup-overlay
 phimtv.net###hide_catfish
 
+||imagedelivery.net^*$image
 ||mephimtrung.org^*.gif$image
 ||www.bk8vnaf.com^*.gif$image
 ||sdfim.com/*/uploads/*.gif$image
