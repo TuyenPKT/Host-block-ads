@@ -21,6 +21,7 @@ phimtv.net/*/i9s*.webp$image
 phimtv.net###mp-preload-popup-overlay
 phimtv.net###hide_catfish
 
+||animehay.fan^.gif$image
 ||imagedelivery.net^*$image
 ||mephimtrung.org^*.gif$image
 ||www.bk8vnaf.com^*.gif$image
@@ -65,13 +66,13 @@ phimtv.net###hide_catfish
 ||kuwin09.*/
 ||mupdam.*/$image
 ||lh3.googleusercontent.com/pw/*$image
-||dabet.*/$popup
+||dabet.*/*$popup
 ||bit.ly/*$popup
 ||i.imgur.com/*.gif$domain=~mcleaks.net
 ||i.imgur.com/*.jpeg$domain=~mcleaks.net
 ||postimg.*/*$image,xmlhttprequest
 ||qph.cf2.quoracdn.net/main-qimg*$image,xmlhttprequest
-||shopee.vn/*$popup,3p
+||shopee.*/*$popup
 ||ads.starzd.com^
 ||bf.333xbet.com^
 
