@@ -1,6 +1,6 @@
 ! Title: TuyenPKT Black List (Beta)
-! Last modified: 19 May 2024 22:53:54 UTC+7
-! Version: 20240519225354533
+! Last modified: 27 May 2024 18:39:44 UTC+7
+! Version: 20240527183944256
 ! ..............
 ! URL: https://github.com/TuyenPKT/Host-block-ads
 ! Credits & ©: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
@@ -67,6 +67,7 @@ www.ani24vn.com###HTML13
 www.ani24vn.com###HTML15
 www.ani24vn.com###HTML17
 vuighe3.com,xem1080.com##.banner-masthead
+
 ||dongphim3s.info/ads/ads_xx.js$script
 ||ff.imacdn.com^$image,domain=xem1080.com
 ||hm.baidu.com/hm.js
@@ -101,6 +102,7 @@ vuighe3.com,xem1080.com##.banner-masthead
 ||kuwin09.*/
 ||lh3.googleusercontent.com/pw/*$image
 ||man.vip^
+||mephimmy.icu/*.gif$image
 ||mephim.uk^*.png
 ||mephimtrung.org^*.gif$image
 ||motphimtv.lol^*.gif$image
@@ -124,7 +126,7 @@ vuighe3.com,xem1080.com##.banner-masthead
 ||vvvwin88.*/
 ||www.bk8vnaf.com^*.gif$image
 ||xoso8811.*/
-
+||78910.tv^$all
 ! ---
 
 ||*.bp.blogspot.com^$image,domain=4u2movie.com
