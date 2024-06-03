@@ -82,7 +82,7 @@ vuighe3.com,xem1080.com##.banner-masthead
 ||f8bet.*/
 ||f8game.*/
 ||five88.*/
-
+||phimchill.*/*/ads/*.jpg
 ||ghienphim.icu^*.gif$image
 ||hsunwin6.*/
 ||i.imgur.com/*.gif$domain=~mcleaks.net
