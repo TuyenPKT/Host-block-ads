@@ -9,16 +9,16 @@
 /6688*.$image,xmlhttprequest
 /ab77/*$image
 /ab77/*$xmlhttprequest,image
-/ads/*.gif$image
+/ads/*.gif
 /ad_banner/*/*$image
-/banner/*/*.gif$image
+/banner/*/*.gif
 /close*$image
 /f88/*$image
 /f88/*$xmlhttprequest,image
 /f8b/*$image
 /f8b/*$xmlhttprequest,image
 /f8bet*/*$popup
-/gp/*.gif$image
+/gp/*.gif
 /h88/*$image
 /h88/*$xmlhttprequest,image
 /i9/*$image
@@ -32,8 +32,8 @@
 /m88/*$xmlhttprequest,image
 /mmo/*$xmlhttprequest,image,domain=vuighe3.com
 /newchill/*.webp$image
-/popup*.gif$image
-/qc/*.gif$image
+/popup*.gif
+/qc/*.gif
 /shope.ee/*$popup,image,xmlhttprequest
 /ta88*.*/*$image,xmlhttprequest
 /td/*$image
@@ -42,7 +42,7 @@
 /url-sw2/*$popup
 /vIKW6ps*$image
 /vip79*.*/*$image,xmlhttprequest
-/_1/i9b*.gif$image
+/_1/i9b*.gif
 animehay.video###banner-shopee
 animehay.video##+js(acs, document.addEventListener, window.open)
 animehay.video##+js(acs, WebAssembly, instantiate)
@@ -59,6 +59,7 @@ www.ani24vn.com###HTML15
 www.ani24vn.com###HTML17
 vuighe3.com,xem1080.com##.banner-masthead
 
+||motchilli.live/*.gif
 ||dongphim3s.info/ads/ads_xx.js$script
 ||ff.imacdn.com^$image,domain=xem1080.com
 ||hm.baidu.com/hm.js
@@ -69,12 +70,12 @@ vuighe3.com,xem1080.com##.banner-masthead
 ||6686vn80.*/
 ||78910.tv^
 ||ads.starzd.com^
-||animehay.fan^.gif$image
+||animehay.fan^.gif
 ||animehay.video^*.gif
 ||best-free-apps.*/
 ||bf.333xbet.com^
 ||bit.ly/*$popup
-||chillhay.asia^*.gif$image
+||chillhay.asia^*.gif
 ||clmm..*/*$image
 ||dabet.*/
 ||dabet.*/*$popup
@@ -83,7 +84,7 @@ vuighe3.com,xem1080.com##.banner-masthead
 ||f8game.*/
 ||five88.*/
 ||phimchill.*/*/ads/*.jpg
-||ghienphim.icu^*.gif$image
+||ghienphim.icu^*.gif
 ||hsunwin6.*/
 ||i.imgur.com/*.gif$domain=~mcleaks.net
 ||i.imgur.com/*.jpeg$domain=~mcleaks.net
@@ -94,20 +95,20 @@ vuighe3.com,xem1080.com##.banner-masthead
 ||kuwin09.*/
 ||lh3.googleusercontent.com/pw/*$image
 ||man.vip^
-||mephimmy.icu/*.gif$image
+||mephimmy.icu/*.gif
 ||mephim.uk^*.png$image
-||mephim.uk^*.gif$image
-||soicau247.ink^*.gif$image
+||mephim.uk^*.gif
+||soicau247.ink^*.gif
 ||soicau247.ink^*.jpg$image
-||mephimtrung.org^*.gif$image
-||motphimtv.lol^*.gif$image
+||mephimtrung.org^*.gif
+||motphimtv.lol^*.gif
 ||mupdam.*/$image
 ||pheclip.*/
-||phimchill.me^*.gif$image
+||phimchill.me^*.gif
 ||postimg.*/*$image,xmlhttprequest
 ||qph.cf2.quoracdn.net/main-qimg*$image,xmlhttprequest
 ||saigonbet.*/
-||sdfim.com/*/uploads/*.gif$image
+||sdfim.com/*/uploads/*.gif
 ||shope.ee^
 ||shopee.*/*$popup
 ||shopee.clgt.xyz^
@@ -119,6 +120,6 @@ vuighe3.com,xem1080.com##.banner-masthead
 ||VVVwin.*/
 ||vvvwin588.*/
 ||vvvwin88.*/
-||www.bk8vnaf.com^*.gif$image
+||www.bk8vnaf.com^*.gif
 ||xoso8811.*/
 ||78910.tv^$all
